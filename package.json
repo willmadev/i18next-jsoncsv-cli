@@ -1,0 +1,25 @@
+{
+  "name": "@willmadev/i18next-jsoncsv-cli",
+  "version": "1.0.0",
+  "description": "A CLI that converts an I18Next JSON file into a CSV file and vice versa.",
+  "bin": {
+    "@willmadev/translation": "bin/translation",
+    "translation": "bin/translation"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "translation"
+  ],
+  "author": "William Ma",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.1.2"
+  }
+}
